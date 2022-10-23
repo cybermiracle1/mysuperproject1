@@ -1,4 +1,4 @@
-FROM suselinux
+FROM opensuse
 
 RUN zypper update
 RUN zypper in -y httpd
